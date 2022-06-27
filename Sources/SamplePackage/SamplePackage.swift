@@ -3,4 +3,8 @@ public struct SamplePackage {
 
     public init() {
     }
+    
+    public func returnString () -> String? {
+        return "test string from package"
+    }
 }
